@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import { Container } from "react-bootstrap";
 
 class Footer extends Component {
   render() {
-    return;
+    return (
+      <Container className="text-center">
+        <p>Yifan Su&copy; 2022</p>
+      </Container>
+    );
   }
 }
 
